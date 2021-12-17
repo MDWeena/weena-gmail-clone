@@ -1,0 +1,39 @@
+.emailStripe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.emailStripe__left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.15;
+    min-width: 180px;
+    padding-right: 10px;
+    /* border: 2px solid blue; */
+}
+.emailStripe__left--left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: .9;
+    /* border: 2px solid red; */
+}
+.emailStripe__right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0.85;
+    /* min-width: 100px; */
+    padding-left: 40px;
+    margin-left: 30px;
+    /* border: 1px solid green; */
+}
+.emailStripe__right--time{
+    padding-right: 20px;
+}
+.emailStripe:hover{
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .1);
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    cursor: pointer;
+}

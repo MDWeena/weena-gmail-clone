@@ -8,11 +8,12 @@
 .header__left {
   display: flex;
   align-items: center;
+  padding: 0px 5px;
 }
 
 .header__left > img {
   object-fit: contain;
-  height: 80px;
+  height: 100px;
   margin-left: 5px;
 }
 
@@ -20,6 +21,8 @@
   display: flex;
   align-items: center;
   flex: 0.7;
+  padding: 3px 15px;
+  border-radius: 7px;
   background-color: whitesmoke;
 }
 

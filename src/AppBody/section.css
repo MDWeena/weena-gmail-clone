@@ -1,0 +1,23 @@
+.section{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, .7);
+    padding: 10px;
+    min-width: 210px;
+    border-bottom-width: 0px !important;
+    border-radius:  0 0 3px 3px ;
+    cursor: pointer;
+}
+.section--selected{
+    background-color: whitesmoke;
+    border-width: 2px !important;
+}
+.section p{
+    margin-left: 15px;
+}
+.section:hover{
+    color: rgba(0, 0, 0, 1);
+    background-color: whitesmoke;
+    border-width: 2px !important;
+}
+
